@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var cctest: UILabel!
+    
+    @IBOutlet weak var aatest: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -20,13 +24,30 @@ class ViewController: UIViewController {
         print(a)
         print(b)
         
-        var 到超市＝ true
-        var 看到西瓜＝ true
+        var 到超市 = true
+        var 看到西瓜 = true
         
-        if 到超市
+        if 到超市 {
+            
+        }
         
     }
 
 
+    @IBAction func btnTestClicked(_ sender: UIButton) {
+        
+        cctest.text="Hi,very Good!"
+    }
+    
+    
+    @IBAction func btnTestClicked111(_ sender: UIButton) {
+        
+        aatest.text = "又按了一次！"
+        
+    }
+    
+    
+    
+    
 }
 
